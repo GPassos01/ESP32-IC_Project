@@ -69,8 +69,8 @@ docs/
 
 ## 🔄 Atualizações
 
-- **v1.0** (Janeiro 2025): Documentação inicial completa
-- Última atualização: Janeiro 2025
+- **v1.0** (Junho 2025): Documentação inicial completa
+- Última atualização: Junho 2025
 
 ---
 
