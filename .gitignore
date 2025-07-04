@@ -1,35 +1,34 @@
 # Build ESP32
-esp32/build/
-esp32/sdkconfig
-esp32/managed_components/
+/esp32/build/
+/esp32/sdkconfig
+/esp32/managed_components/
+/build/
 
 # SPIFFS
-esp32/spiffs_image/*.jpg
-esp32/spiffs_image/*.bin
-server/spiffs_image.bin
+/esp32/spiffs_image/
+/server/spiffs_image.bin
 
 # Python
-server/venv/
-server/__pycache__/
-scripts/__pycache__/
+/server/venv/
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
 # Logs e dados da IC
-server/*.log
-server/*.db
-server/*.png
+/server/*.log
+/server/*.db
+/server/*.png
+project_elf_sha256
 
 # Imagens processadas
-imagens/*_320x240.jpg
-imagens/diferenca.jpg
-server/extracted_images/
-server/extracted_final_images/
-server/received_images/
+/imagens/
+/server/extracted_images/
+/server/extracted_final_images/
+/server/received_images/
 
 # Reports
-reports/
+/reports/
 
 # Sistema
 .DS_Store
@@ -37,8 +36,35 @@ Thumbs.db
 *.swp
 *.swo
 *~
+*.bak
+*.old
 
 # IDE
 .vscode/
 .idea/
-*.code-workspace 
+*.code-workspace
+.history/
+
+# Built files
+*.o
+*.a
+*.out
+*.elf
+*.bin
+*.map
+*.zip
+sdkconfig
+*.gdb
+*.pyc
+
+# Backups
+*~
+*.bak
+*.swp
+*.old
+config.h.backup
+mqtt_data_collector.py.backup
+*.swo
+
+# Directories
+components/ 

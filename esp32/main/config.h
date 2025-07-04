@@ -19,7 +19,7 @@
 #define WIFI_SSID        "Steps 2.4G"      // Nome da rede WiFi 2.4GHz
 #define WIFI_PASS        "h%8Ka4D&"        // Senha da rede
 #define WIFI_MAXIMUM_RETRY  5               // Tentativas de reconexão WiFi
-#define MQTT_BROKER_URI  "mqtt://192.168.1.48:1883"  // Broker MQTT local
+#define MQTT_BROKER_URI  "mqtt://192.168.1.71:1883"  // Broker MQTT local
 #define MQTT_USERNAME    ""                 // Usuário MQTT
 #define MQTT_PASSWORD    ""                 // Senha MQTT
 #define MQTT_KEEPALIVE   60                 // Keepalive MQTT em segundos

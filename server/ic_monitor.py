@@ -34,7 +34,7 @@ from typing import Dict, Any, Optional
 import paho.mqtt.client as mqtt
 
 # Configurações
-MQTT_BROKER = "192.168.1.48"
+MQTT_BROKER = "192.168.1.71"
 MQTT_PORT = 1883
 MQTT_USERNAME = ""
 MQTT_PASSWORD = ""
